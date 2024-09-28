@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apple Features by Pranjal Pratap Singh</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+
+      .m {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+      }
+
+      .fb {
+        width: 100%;
+        max-width: 1200px;
+      }
+
+      .rt,
+      .rm,
+      .rb {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+      }
+
+      .midc {
+        display: flex;
+        justify-content: space-between;
+        flex: 1;
+      }
+
+      .ml,
+      .mr {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .mcenter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+
+      .mre {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 10px;
+      }
+
+      .f-r {
+        display: flex;
+        gap: 10px;
+      }
+
+      .f {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+
+      .f img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        transition: transform 0.3s ease;
+      }
+
+      .f:hover {
+        transform: scale(1.05);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      }
+
+      .f img:hover {
+        transform: scale(1.05);
+      }
+
+      /* Responsive Design */
+      @media (max-width: 768px) {
+        .rt,
+        .rm,
+        .rb {
+          flex-direction: column;
+        }
+
+        .ml,
+        .mr {
+          flex-direction: row;
+        }
+
+        .mcenter,
+        .f-r {
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section class="m">
+      <div class="fb">
+        <div class="rt">
+          <div class="f" id="tl">
+            <img src="images/Slide-1.png" alt="" />
+          </div>
+          <div class="f">
+            <img src="images/Slide-2.png" alt="" />
+          </div>
+          <div class="f">
+            <img src="images/Slide-3.png" alt="" />
+          </div>
+          <div class="f">
+            <img src="images/Slide-4.png" alt="" />
+          </div>
+          <div class="f">
+            <img src="images/Slide-5.png" alt="" />
+          </div>
+        </div>
+        <div class="rm">
+          <div class="midc">
+            <div class="ml">
+              <div class="f">
+                <img src="images/SLIDE-6.png" alt="" />
+              </div>
+              <div class="f">
+                <img src="images/Slide-7.png" alt="" />
+              </div>
+            </div>
+            <div class="mr">
+              <div class="f">
+                <img src="images/Slide-12.png" alt="" />
+              </div>
+              <div class="f">
+                <img src="images/Slide-13.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="mcenter">
+            <div class="f">
+              <img src="images/Slide-8.png" alt="" />
+            </div>
+          </div>
+          <div class="mre">
+            <div class="f">
+              <img src="images/Slide-9.png" alt="" />
+            </div>
+            <div class="f-r">
+              <div class="f">
+                <img src="images/Slide-10.png" alt="" />
+              </div>
+              <div class="f">
+                <img src="images/Slide-11.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="rb">
+          <div class="f" id="bl">
+            <img src="images/Slide-14.png" alt="" />
+          </div>
+          <div class="f">
+            <img src="images/Slide-15.png" alt="" />
+          </div>
+          <div class="f">
+            <img src="images/Slide-16.png" alt="" />
+          </div>
+          <div class="f">
+            <img src="images/Slide-17.png" alt="" />
+          </div>
+          <div class="f" id="br">
+            <img src="images/Slide-18.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
